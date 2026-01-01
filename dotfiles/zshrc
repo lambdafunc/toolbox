@@ -1,0 +1,4 @@
+# Basic shell defaults for toolbox
+export PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+
+alias ll='ls -alF'
