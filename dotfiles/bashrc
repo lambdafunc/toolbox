@@ -2,3 +2,18 @@
 export PATH="$HOME/.local/bin:$HOME/bin:$PATH"
 
 alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias c='clear'
+alias mkdirp='mkdir -p'
+alias path='printf "%s\n" "${PATH//:/\n}"'
+alias grep='grep --color=auto'
+
+# System admin helpers (portable defaults).
+alias dfh='df -h'
+alias duh='du -h'
+alias psa='ps aux'
+alias psg='ps aux | grep -i'
+alias ports='lsof -i -P -n'
